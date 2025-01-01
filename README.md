@@ -1,14 +1,19 @@
 [![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=COSY-VOICE-NEXT%20🌞&width=800&height=400)](https://github.com/Akshay090/svg-banners)
-基于cosyvoice项目作为后端，基于Next.js构建的前端页面，使用websockt技术进行实时流逝语音生成。
+
+
+CosyVoiceNext是基于cosyvoice项目作为后端，Next.js构建的前端页面
+
+使用websockt技术进行实时流式语音生成的前端网页项目。
+
 支持文本输入、文件上传、实时播放和音频下载等功能。
 
 
 ## 🌟[在线预览地址](https://cosy-voice-next-gyiysg89i-tatertots-projects.vercel.app/)
 
-<video width="320" height="240" controls>
-  <source src="demo/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://private-user-images.githubusercontent.com/102522568/399543480-dc1aed67-8947-45e7-876a-cd2dfc52aa6a.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU3MTI2OTEsIm5iZiI6MTczNTcxMjM5MSwicGF0aCI6Ii8xMDI1MjI1NjgvMzk5NTQzNDgwLWRjMWFlZDY3LTg5NDctNDVlNy04NzZhLWNkMmRmYzUyYWE2YS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwMVQwNjE5NTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NTUxYTJhN2ExNzg1ZTRjZDVhZTAxNWNiZDVmNDM0NDIyNjQ1Y2QxYzQzYzk4NmI1ZDU3NTIzNzViNDY1MmU2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.wafwpLxuAozCsLc_tAk6Kv5DnUaELsHvchkA9o7eP8U
+
+## 📱 移动端页面展示
+<img src="demo/img.png" style="border-radius: 20px">
 
 ## ✨ 特性
 
