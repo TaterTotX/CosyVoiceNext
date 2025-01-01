@@ -5,8 +5,10 @@
 
 ## 🌟[在线预览地址](https://cosy-voice-next-gyiysg89i-tatertots-projects.vercel.app/)
 
-https://user-attachments.githubusercontent.com/assets/dc1aed67-8947-45e7-876a-cd2dfc52aa6a
-
+<video width="320" height="240" controls>
+  <source src="demo/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## ✨ 特性
 
