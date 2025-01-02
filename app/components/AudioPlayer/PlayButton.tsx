@@ -20,13 +20,13 @@ const PlayButton: React.FC<PlayButtonProps> = ({
         <button
             onClick={onTogglePlay}
             disabled={!isPlaying && !text.trim() }
-            className={`flex items-center px-6 py-2.5 rounded-lg font-medium 
+            className={`flex items-center justify-center px-6 py-2.5 rounded-lg font-medium 
                 transition-all duration-500 ease-in-out transform hover:scale-105
                 ${(!isPlaying && !text.trim())
                 ? 'bg-neutral-300 dark:bg-neutral-700 cursor-not-allowed'
                 : isDarkMode
-                    ? 'bg-neutral-700 hover:bg-neutral-600 text-neutral-200'
-                    : 'bg-neutral-800 hover:bg-neutral-700 text-neutral-100'
+                    ? 'btn-base-dark'
+                    : 'btn-base-light'
             }`}
         >
             {isPlaying ? (

@@ -34,13 +34,11 @@ const AudioPlayer = () => {
 
     return (
         <div className={`min-h-screen flex items-center justify-center p-4 transition-all duration-700 ease-in-out ${
-            isDarkMode ? 'dark bg-neutral-900' : 'bg-neutral-50'
+            isDarkMode ? 'dark theme-background-dark' : 'theme-background-light'
         }`}>
             <div className="w-full max-w-xl">
                 <div className={`rounded-2xl backdrop-blur-sm transition-all duration-700 ease-in-out ${
-                    isDarkMode
-                        ? 'bg-neutral-800/90 shadow-lg shadow-neutral-900/50'
-                        : 'bg-black/90 shadow-lg shadow-neutral-200/50'
+                    isDarkMode ? 'card-background-dark' : 'card-background-light'
                 }`}>
                     <div className="flex flex-col items-center p-6 transition-all duration-500">
                         <h1 className={`text-2xl font-semibold mb-6 transition-colors duration-500 ${

@@ -73,11 +73,10 @@ const TextInput: React.FC<TextInputProps> = ({
             onDragOver={handleDragOver}
             onDrop={handleDrop}
             className={`w-full h-40 px-4 py-3 rounded-xl transition-all duration-500 ease-in-out
-                resize-none outline-none ring-2 ring-transparent focus:ring-neutral-400
-                ${isDarkMode
-                ? 'bg-neutral-700 text-neutral-200 placeholder-neutral-500 border-neutral-600'
-                : 'bg-neutral-700 text-white placeholder-neutral-400 border-neutral-200'
-            } ${isPlaying ? 'opacity-50 cursor-not-allowed' : ''}`}
+            resize-none outline-none ring-2 
+            text-input-base text-input-focus
+            ${isDarkMode ? 'text-input-dark' : 'text-input-light'}
+            ${isPlaying ? 'text-input-disabled cursor-not-allowed' : ''}`}
             disabled={isPlaying}
         />
     );

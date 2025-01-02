@@ -32,11 +32,11 @@ const FileUploadButton: React.FC<FileUploadButtonProps> = ({ onTextLoad, isDarkM
     };
 
     return (
-        <label className={`flex items-center px-6 py-2.5 rounded-lg font-medium cursor-pointer
+        <label className={`flex items-center justify-center px-6 py-2.5 rounded-lg font-medium cursor-pointer
             transition-all duration-500 ease-in-out transform hover:scale-105
             ${isDarkMode
-            ? 'bg-neutral-700 hover:bg-neutral-600 text-neutral-200'
-            : 'bg-neutral-800 hover:bg-neutral-700 text-neutral-100'
+            ? 'btn-base-dark'
+            : 'btn-base-light'
         }`}
         >
             <Upload size={18} className="mr-2" />

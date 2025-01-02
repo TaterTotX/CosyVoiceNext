@@ -2,20 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  /* 背景切换颜色 */
+  .theme-background-light {
+    @apply bg-neutral-50;
+  }
+
+  .theme-background-dark {
+    @apply bg-neutral-900;
+  }
+
+  /* 卡片背景样式 */
+  .card-background-light {
+    @apply bg-black/90 shadow-lg shadow-neutral-200/50;
+  }
+
+  .card-background-dark {
+    @apply bg-neutral-800/90 shadow-lg shadow-neutral-900/50;
+  }
+
+
+  /* 按钮样式 */
+  .btn-base-light {
+    @apply bg-neutral-800 hover:bg-neutral-700 text-neutral-100;
+  }
+
+  .btn-base-dark {
+    @apply bg-neutral-700 hover:bg-neutral-600 text-neutral-200;
+  }
+
+
+
+  /* TextInput 组件颜色样式 */
+  .text-input-base {
+    @apply bg-neutral-700 ring-transparent;
+  }
+
+  .text-input-light {
+    @apply text-white placeholder-neutral-400;
+  }
+
+  .text-input-dark {
+    @apply text-neutral-200 placeholder-neutral-500;
+  }
+
+  .text-input-focus {
+    @apply focus:ring-neutral-400;
+  }
+
+  .text-input-disabled {
+    @apply opacity-50;
+  }
 }
