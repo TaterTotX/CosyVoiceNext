@@ -4,7 +4,7 @@
 
 A real-time streaming text-to-speech web application built with Next.js, using the CosyVoice project as the backend.
 
-[中文文档](README_CN.md) | [Online Preview](https://cosy-voice-next-gyiysg89i-tatertots-projects.vercel.app/)
+[中文文档](README_CN.md) | [Online Preview](https://cosy-voice-next.vercel.app/)
 
 ## ✨ Features
 
