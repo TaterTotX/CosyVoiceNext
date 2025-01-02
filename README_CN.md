@@ -41,7 +41,7 @@ CosyVoiceNext是基于CosyVoice项目作为后端，使用Next.js构建的前端
 
 ```bash
 # 克隆项目
-git clone https://github.com/你的用户名/cosy-voice-next.git
+git clone https://github.com/TaterTotX/CosyVoiceNext.git
 
 # 安装依赖
 cd cosy-voice-next

@@ -41,7 +41,7 @@ Check out our video demonstration (please turn on sound):
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cosy-voice-next.git
+git clone https://github.com/TaterTotX/CosyVoiceNext.git
 
 # Install dependencies
 cd cosy-voice-next
