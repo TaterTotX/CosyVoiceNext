@@ -36,10 +36,10 @@ const TextInput: React.FC<TextInputProps> = ({
             textareaRef.current.scrollTop = 0;
             const scrollStep = () => {
                 if (textareaRef.current) {
-                    textareaRef.current.scrollTop += 0.1;
+                    textareaRef.current.scrollTop += 0.5;
                 }
             };
-            const intervalId = setInterval(scrollStep, 16);
+            const intervalId = setInterval(scrollStep, 60);
             return () => clearInterval(intervalId);
         } else {
             textareaRef.current.scrollTop = 0;
