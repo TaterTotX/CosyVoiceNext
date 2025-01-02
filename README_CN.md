@@ -4,7 +4,7 @@
 
 CosyVoiceNext是基于CosyVoice项目作为后端，使用Next.js构建的前端页面，支持实时流式语音生成的Web应用。
 
-[English](README.md) | [在线预览](https://cosy-voice-next-gyiysg89i-tatertots-projects.vercel.app/)
+[English](README.md) | [在线预览](https://cosy-voice-next.vercel.app/)
 
 ## ✨ 特性
 
